@@ -14,6 +14,8 @@ Consider the Depth First Search graph algorithm versus the Breadth First Search 
 
 What is the difference between a tree and a graph?
 
+    - The difference between a tree anda graph is that a tree has a defined root, parent nodes, and children nodes, where as a graph do not neccessarily have this linear directionality. A graph's root can be any node and does not have to flow in the same linear manner as a tree. Where trees have defined parents and children nodes graphs do not, a node can point/connect with as many other nodes as desired. Lastly, a graph can be directed or undirected allowing for the connections between nodes to be defined as one on to another or undefined as in any movement or path through connections are possible.
+
 ## Question 3
 
 In the circular queue datastructure we have `front` and `back` variables. What is their purpose? Why do we design the queue this way?
