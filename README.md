@@ -8,6 +8,8 @@ Make one commit per question (at least).
 
 Consider the Depth First Search graph algorithm versus the Breadth First Search algorithm. They are very similar, except one uses a stack and the other uses a queue. How does the choice of datastructure in the affect the execution of the respective algorithms?
 
+    - This choice matters because it affects the way nodes will be pushed and popped, and thereby the work and time the program will need to comlete to acceess a certain node. A stack is a LIFO type meaning that the last node added to the list will be the first node off, where as a queue is of the FIFO type meaning that the first node added will be the first node off. Because stacks and queues have different adding and removing structures it greatly affects the way each algorithm is executed.
+
 ## Question 2
 
 What is the difference between a tree and a graph?
