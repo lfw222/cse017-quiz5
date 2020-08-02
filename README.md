@@ -45,3 +45,18 @@ Encode the following graph as an adjacency matrix
 ## Question 5
 
 For the graph in the previous question, write out the steps of Dijkstra's Algorithm to find the shortest path between Node 1 and Node 11. For each step, write down the Unvisited set U, the Visited set V, and the current tenative distance vector D.
+// I == infinity, C == current
+1:
+U = {1,2,3,4,5,6,7,8,9,10,11}
+D = [I,I,I,I,I,I,I,I,I,I,I]
+V = {}
+C = 1
+
+2:
+
+U = {2,3,4,5,6,7,8,9,10,11}
+V = {1}
+D = [0,I,I,13,I,I,2,I,I,I,I]
+C = 7
+
+
