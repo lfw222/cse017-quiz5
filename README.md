@@ -20,6 +20,8 @@ What is the difference between a tree and a graph?
 
 In the circular queue datastructure we have `front` and `back` variables. What is their purpose? Why do we design the queue this way?
 
+    - The front and the back variable of the queue are important because they maintain the length of list allowing for an error to be thrown is the list is only 1 element, preventing the list from being emptied in its entirety. Additionally it allows for us to not exceed the lists capacity. Essentially the front and the rear varibles allow us to keep track of the nuber of elements in the list and which elements were just added or are being removed.
+
 ## Question 4
 
 Encode the following graph as an adjacency matrix
